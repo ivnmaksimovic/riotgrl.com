@@ -1,0 +1,29 @@
+{
+  "name": "riotgrl.com",
+  "version": "1.0.0",
+  "description": "RiotGrl web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx serve dist",
+    "assets": "cp -r src/assets dist",
+    "templates": "cp src/index.html dist/index.html",
+    "build": "npm run templates && npm run assets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivnmaksimovic/riotgrl.com.git"
+  },
+  "keywords": [
+    "riot",
+    "grl",
+    "girl",
+    "riotgrl"
+  ],
+  "author": "Danica Gilic & Ivan Maksimovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivnmaksimovic/riotgrl.com/issues"
+  },
+  "homepage": "https://riotgrl.com"
+}

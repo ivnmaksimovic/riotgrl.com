@@ -1,0 +1,4 @@
+# build folder
+dist
+
+.DS_Store
