@@ -8,7 +8,7 @@
     "start": "npx serve dist",
     "assets": "cp -r src/assets dist",
     "templates": "cp src/index.html dist/index.html",
-    "build": "npm run templates && npm run assets"
+    "build": "mkdir -p dist && npm run templates && npm run assets"
   },
   "repository": {
     "type": "git",
