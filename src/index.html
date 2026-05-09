@@ -33,21 +33,26 @@
 			}
 
 			footer {
+				width: 100%;
+				box-sizing: border-box;
 				position: absolute;
 				bottom: 4px;
-				right: 4px;
+				padding: 0 8px;
+				display: flex;
+				justify-content: space-between;
 			}
 
-			#copyrights {
+			.link {
 				color: #7b6f83;
 				font-size: 12px;
 			}
 
-			#copyrights:hover {
+			.link:hover {
 				color: #9f91a8;
 			}
 		</style>
 	</head>
+
 	<body>
 		<div id="main">
 			<div id="grl">
@@ -56,9 +61,13 @@
 		</div>
 
 		<footer>
-			<a id="copyrights" href="https://danicagilic.com/">
+			<a class="link" href="https://www.instagram.com/_riotgrl_" target="_blank" rel="noopener noreferrer">
+				Instagram
+			</a>
+
+			<a class="link" href="https://danicagilic.com/" target="_blank" rel="noopener noreferrer">
 				by Danica Gilić © 
-				<noscript>2020</noscript><script type="text/javascript">document.write(new Date().getFullYear());</script>
+				<noscript>2026</noscript><script type="text/javascript">document.write(new Date().getFullYear());</script>
 			</a>
 		</footer>
 
